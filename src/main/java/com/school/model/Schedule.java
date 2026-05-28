@@ -28,7 +28,7 @@ public class Schedule {
     private String subject;
 
     @Enumerated(EnumType.STRING)
-    @Column(name = "date", nullable = false)
+    @Column(name = "day_of_week", nullable = false)
     private DayOfWeek dayOfWeek;
 
     @Column(name = "start_time", nullable = false)

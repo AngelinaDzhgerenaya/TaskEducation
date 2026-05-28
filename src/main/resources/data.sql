@@ -5,7 +5,7 @@ INSERT INTO teachers (first_name, middle_name, last_name) VALUES
 
 INSERT INTO school_classes (class_name) VALUES ('10А');
 
-INSERT INTO schedules (subject, date, start_time, end_time, room_number, teacher_id, class_id) VALUES
+INSERT INTO schedules (subject, day_of_week, start_time, end_time, room_number, teacher_id, class_id) VALUES
 ('Математика', 'MONDAY', '09:00', '10:30', '201', 1, 1),
 ('Физика', 'MONDAY', '10:45', '12:15', '301', 2, 1),
 ('Литература', 'MONDAY', '12:30', '14:00', '105', 1, 1),
