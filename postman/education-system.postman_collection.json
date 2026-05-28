@@ -1,0 +1,99 @@
+{
+  "info": {
+    "_postman_id": "9f801b5a-9526-4d73-8a4b-7cc3dc4af305",
+    "name": "education-system",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "51089239",
+    "_collection_link": "https://go.postman.co/collection/51089239-9f801b5a-9526-4d73-8a4b-7cc3dc4af305?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET /api/teachers/random",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "POST /api/teachers",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "PATCH /api/teachers/{id}",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "GET /api/teachers",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "POST /api/classes",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "PATCH /api/classes/{id}",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "GET /api/classes",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "POST /api/schedule",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Patch /api/schedule/{id}",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get /api/classes/{id}/schedule",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get /api/teacher/{id}/schedule",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
