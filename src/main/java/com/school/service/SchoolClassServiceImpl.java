@@ -55,13 +55,15 @@ public class SchoolClassServiceImpl implements SchoolClassService {
                 .orElseThrow(() ->
                 new NotFoundException("Такого класса не существует"));
         if (request.getClassName()!=null) {
-            schoolClass.setClassName(request.getClassName());
-        }
-        List<SchoolClass> schoolClasses = schoolClassRepository.findByClassName(request.getClassName());
+            List<SchoolClass> schoolClasses = schoolClassRepository.findByClassName(request.getClassName());
         if (!schoolClasses.isEmpty()) {
             throw new ConflictException("Такой класс уже существует");
         }
-
+            else{
+            schoolClass.setClassName(request.getClassName());
+        }
+        }
+        
         return SchoolClassResponse.of(schoolClassRepository.save(schoolClass));
     }
 
